@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link href="./styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <section class="quiz">
+    <div class="quiz__container">
+      <div class="quiz__text-wrapper">
+        <h1 class="quiz__title">Подберём вуз мечты</h1>
+        <p class="quiz__text">Ответьте на 8 простых вопросов, и мы составим список наболее подходящих для вас вузов</p>
+        <img src="./img/bg-image.png" alt="Рисунок, на котором изображена луба и лист бумаги." class="quiz__image">
+      </div>
+      <div class="quiz__form-wrapper">
+        <form action="" class="form">
+          <fieldset>
+            <div class="form__text-wrapper">
+              <legend class="form__title"></legend>
+              <span class="form__text">Шаг <span class="step"></span>/9</span>
+            </div>
+            <ul class="form__list form__container">
+            </ul>
+          </fieldset>
+          <button class="form__button" type="button">Далее</button>
+        </form>
+
+
+      </div>
+    </div>
+  </section>
+  <template id="radioItem">
+      <li class="form__item">
+        <input class="form__input answer" id="" type="radio" name="answer">
+        <label class="form__label" for=""></label>
+        <span class="form__control-mark"></span>
+      </li>
+  </template>
+<script type="module" src="index.js"></script>
+</body>
+
+</html>
